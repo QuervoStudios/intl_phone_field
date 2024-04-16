@@ -23,7 +23,7 @@ class IntlPhoneField extends StatefulWidget {
   /// How the text should be aligned vertically.
   final TextAlignVertical? textAlignVertical;
   final VoidCallback? onTap;
-  final VoidCallback? onTapOutside;
+  final TapRegionCallback? onTapOutside;
 
   /// {@macro flutter.widgets.editableText.readOnly}
   final bool readOnly;
