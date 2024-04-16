@@ -260,7 +260,7 @@ class IntlPhoneField extends StatefulWidget {
     this.textAlign = TextAlign.left,
     this.textAlignVertical,
     this.onTap,
-    this.onTapOutside
+    this.onTapOutside,
     this.readOnly = false,
     this.initialValue,
     this.keyboardType = TextInputType.phone,
