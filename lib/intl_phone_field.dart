@@ -393,7 +393,9 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
       textAlignVertical: widget.textAlignVertical,
       cursorColor: widget.cursorColor,
       onTap: widget.onTap,
-      onTapOutside: widget.onTapOutside,
+      onTapOutside: (event) {
+            FocusManager.instance.primaryFocus?.unfocus();
+          },
       controller: widget.controller,
       focusNode: widget.focusNode,
       cursorHeight: widget.cursorHeight,
